@@ -1,9 +1,9 @@
 "use client";
 
-import { slides } from "@/data/features";
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import CarouselCard from "./common/carousel-card";
+import CarouselCard from "./carousel-card";
+import { slides } from "@/data/slides";
 
 const Carousel = () => {
   const [current, setCurrent] = useState(0);

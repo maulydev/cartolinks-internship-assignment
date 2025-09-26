@@ -1,6 +1,6 @@
 import React from "react";
-import FeatureCard from "./common/feature-card";
 import { features } from "@/data/features";
+import FeatureCard from "./feature-card";
 
 const Features = () => {
   return (
@@ -15,6 +15,7 @@ const Features = () => {
             isNew={feature.isNew}
             description={feature.description}
             icon={feature.icon}
+            iconBg={feature.iconBg}
           />
         ))}
       </div>
