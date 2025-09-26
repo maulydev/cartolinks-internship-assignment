@@ -6,7 +6,7 @@ export const slides = [
     description:
       "Generate complex images with the brand new and powerful WAN 2.2 model. Exceptional prompt adherence and ultra-realistic textures.",
     buttonText: "Try WAN 2.2",
-    image: "/wan2_2_2.png",
+    image: "/wan2_2.png",
   },
   {
     label: "OPEN SOURCE MODEL",
