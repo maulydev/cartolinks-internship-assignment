@@ -32,7 +32,7 @@ const NotificationsDrawer = () => {
 
       {/* Drawer */}
       <div
-        className={`fixed inset-y-0 right-0 w-[26rem] h-screen bg-white dark:bg-gray-900 shadow-xl transition-transform duration-500 transform ${
+        className={`fixed inset-y-0 right-0 w-full md:w-[26rem] h-screen bg-white dark:bg-gray-900 shadow-xl transition-transform duration-500 transform ${
           open ? "translate-x-0" : "translate-x-full"
         } z-[99]`}
       >

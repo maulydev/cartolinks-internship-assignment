@@ -1,11 +1,11 @@
 import React from "react";
 
-const SupportPage = () => {
+const GalleryPage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center text-3xl">
-      SupportPage
+    <div className="min-h-svh flex items-center justify-center text-3xl">
+      Support Page
     </div>
   );
 };
 
-export default SupportPage;
+export default GalleryPage;
