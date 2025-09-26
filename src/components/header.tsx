@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <header className="w-full sticky top-0 left-0 z-50 bg-white/50 dark:bg-gray-900/60 backdrop-blur-lg border-b border-gray-200 dark:border-gray-700">
-      <div className="flex items-center justify-between px-4 py-4 md:px-8">
+      <div className="container mx-auto flex items-center justify-between px-4 py-4 md:px-8">
         {/* Left: Logo + Username */}
         <div className="flex items-center gap-x-4">
           <div className="w-8 h-8 bg-black dark:bg-white rounded-full flex items-center justify-center text-white dark:text-black font-bold">

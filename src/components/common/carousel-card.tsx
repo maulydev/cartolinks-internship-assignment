@@ -16,12 +16,12 @@ const CarouselCard = ({
   buttonText,
 }: Props) => {
   return (
-    <div className="w-full md:w-[66.66%] lg:w-[50%] flex-shrink-0 h-[400px] relative">
+    <div className="w-full md:w-[66.66%] lg:w-[50%] flex-shrink-0 h-[400px] relative ">
       {/* Background placeholder */}
-      <div className="absolute inset-0 bg-gray-300 dark:bg-gray-700 rounded-2xl" />
+      <div className="absolute inset-0 bg-gray-300 dark:bg-gray-700 rounded-2xl mx-3" />
 
       {/* Content overlay */}
-      <div className="absolute inset-0 p-6 flex flex-col justify-end text-white bg-gradient-to-t from-black/70 via-black/40 to-transparent rounded-2xl dark:from-gray-900/80 dark:via-gray-900/50 dark:to-transparent">
+      <div className="absolute inset-0 p-6 flex flex-col justify-end text-white bg-gradient-to-t from-black/70 via-black/40 to-transparent rounded-2xl dark:from-gray-900/80 dark:via-gray-900/50 dark:to-transparent mx-2">
         <span className="text-xs uppercase tracking-wide text-gray-200 dark:text-gray-400">
           {label}
         </span>

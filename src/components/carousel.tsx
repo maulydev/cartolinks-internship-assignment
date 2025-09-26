@@ -26,7 +26,7 @@ const Carousel = () => {
       {/* Slides wrapper */}
       <div className="overflow-hidden rounded-2xl">
         <div
-          className="flex transition-transform duration-500 gap-x-4"
+          className="flex transition-transform duration-500 ease-in-out"
           style={{
             transform: `translateX(-${current * getTranslatePercent()}%)`,
           }}
